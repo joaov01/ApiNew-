@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Notícias Brasil</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_title_news_item">Título notícias</string>
+    <string name="text_description_news_item">Texto da notícia limitado em 200 caracteres apenas para uma prévia apresentação</string>
+    <string name="text_content_description">imagem da noticia</string>
+</resources>
