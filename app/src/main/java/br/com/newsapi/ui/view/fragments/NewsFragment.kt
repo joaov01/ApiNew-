@@ -54,7 +54,9 @@ class NewsFragment : Fragment() {
             viewmodel!!.newsLiveData.observe(viewLifecycleOwner, Observer {
                 it?.let {resource -> when(resource.status){
                     Status.SUCCESS -> {
-                        retrieveList(resource.data!!)
+                        resource.data?.let {news ->
+                            retrieveList(news)
+                        }
                         bind.apply {
                             rvNewsMain.visibility = View.VISIBLE
                             pbNews.visibility = View.GONE

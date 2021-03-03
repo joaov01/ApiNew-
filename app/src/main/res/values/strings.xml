@@ -4,4 +4,6 @@
     <string name="text_title_news_item">Título notícias</string>
     <string name="text_description_news_item">Texto da notícia limitado em 200 caracteres apenas para uma prévia apresentação</string>
     <string name="text_content_description">imagem da noticia</string>
+    <string name="text_list_news">Lista de noticias</string>
+    <string name="text_next">Next</string>
 </resources>

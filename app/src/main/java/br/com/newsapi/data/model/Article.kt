@@ -8,4 +8,4 @@ class Article (val author: String,
                                       val url: String,
                                       val urlToImage: String,
                                       val publishedAt: String,
-                                      val content:String, private val source: Source): Serializable
+                                      val content:String, val source: Source): Serializable
