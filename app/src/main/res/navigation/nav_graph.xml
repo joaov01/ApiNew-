@@ -18,7 +18,7 @@
     <fragment
         android:id="@+id/detailsNewsFragment"
         android:name="br.com.newsapi.ui.view.fragments.DetailsNewsFragment"
-        android:label="DetailsNewsFragment" >
+        android:label="Detalhes ">
         <argument
             android:name="article"
             app:argType="br.com.newsapi.data.model.Article" />
@@ -30,7 +30,7 @@
     <fragment
         android:id="@+id/authorFragment"
         android:name="br.com.newsapi.ui.view.fragments.AuthorFragment"
-        android:label="AuthorFragment" >
+        android:label="Sobre o autor">
         <argument
             android:name="article"
             app:argType="br.com.newsapi.data.model.Article" />

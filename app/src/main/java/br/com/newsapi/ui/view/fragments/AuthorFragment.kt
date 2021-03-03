@@ -38,12 +38,12 @@ class AuthorFragment: Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        article?.let {
+        article.let {
             bind.article = it
             bind.btnBack.setOnClickListener {
                 val direction = AuthorFragmentDirections.authorId()
-                controller.navigate(direction)
-                //controller.navigate(R.id.authorId)
+                //controller.navigate(direction)
+                controller.navigate(R.id.authorId)
             }
         }
 
