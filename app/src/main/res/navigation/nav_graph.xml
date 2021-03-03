@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/newsFragment"
         android:name="br.com.newsapi.ui.view.fragments.NewsFragment"
-        android:label="NewsFragment"
+        android:label="Noticías do Brasil"
         tools:layout="@layout/fragment_news">
         <action
             android:id="@+id/action_newsFragment_to_detailsNewsFragment"
