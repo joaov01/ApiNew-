@@ -42,7 +42,8 @@ class DetailsNewsFragment : Fragment() {
             bind.btnNext.setOnClickListener {
                 val direction = DetailsNewsFragmentDirections.
                 actionDetailsNewsFragmentToAuthorFragment(art)
-                controller.navigate(direction)
+                this.findNavController().navigate(direction)
+                //controller.navigate(direction)
             }
         }
     }
